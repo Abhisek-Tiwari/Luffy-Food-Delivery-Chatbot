@@ -1,15 +1,92 @@
-This porject is a CHatbot LUffy, a chatbot that can be used to handle user queries and :
-  1. Place order
-  2. Add or remove (update) order
-  3. Track order
 
-The tech-stacks used in this are : HTML, CSS, Dialogflow, FastAPIS, Python, SQL, ngrok, Uvicorn
+# 🍜 Luffy Food Delivery Chatbot
 
-1. HTML: For front-end structure of website
-2. CSS: For frontend design of website
-3. Dialogflow: An interface for connecting frontend and backend, and for making chatbot LUFFY
-4. FastAPIS : For implementing backend functions of adding order, updatinf order, completing order, tracking order, database management, session related tasks, etc
-5. Python: Language for implementing the backend
-6. SQL: Database to store order information and status
-7. ngrok: For https protocol used in Dialogflow
-8. Uvicorn: To start backend server.
+**An AI-powered chatbot built with FastAPI, Dialogflow, and SQL to place, update, and track food orders.**
+
+## 🧠 Overview
+
+Luffy is an intelligent food ordering assistant designed to streamline the food delivery process. Leveraging Dialogflow for natural language understanding and FastAPI for backend operations, Luffy can handle tasks such as placing new orders, modifying existing ones, and tracking order statuses.
+
+## ✨ Features
+
+- 🗣️ **Natural Language Interaction**: Users can chat with Luffy using everyday language to manage food orders.
+- 🍽️ **Order Management**: Place new orders, update existing ones, or cancel them seamlessly.
+- ⏱️ **Real-Time Tracking**: Check the status of your orders on the go.
+- 💻 **User-Friendly Interface**: Clean frontend with HTML and CSS.
+
+## 🔧 Tech Stack
+
+- **Frontend**: HTML, CSS
+- **Backend**: FastAPI (Python), Uvicorn
+- **NLP Engine**: Dialogflow
+- **Database**: SQL
+- **Tunneling**: Ngrok
+
+## 🛠️ Installation
+
+To set up the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Abhisek-Tiwari/Luffy-Food-Delivery-Chatbot.git
+   cd Luffy-Food-Delivery-Chatbot
+   ```
+
+2. **Create a Virtual Environment** (optional):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set Up the Database**:
+   - Ensure a SQL DB is ready.
+   - Update DB connection info in the backend.
+
+5. **Run Backend Server**:
+   ```bash
+   uvicorn backend.main:app --reload
+   ```
+
+6. **Expose with Ngrok**:
+   ```bash
+   ngrok http 8000
+   ```
+
+   Use the HTTPS URL in Dialogflow as a webhook.
+
+## 🚀 Usage
+
+- Access the chatbot through Dialogflow or your integrated platform.
+- Open `frontend/index.html` in your browser for the UI.
+
+## 📁 Project Structure
+
+- `backend/` - FastAPI code
+- `frontend/` - HTML + CSS interface
+- `README.md` - Project docs
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push and open a pull request
+
+## 📝 License
+
+Licensed under the [MIT License](LICENSE).
+
+## 🙌 Acknowledgements
+
+Created by [Abhisek Tiwari](https://github.com/Abhisek-Tiwari) — blending modern tech and NLP to build smart food delivery experiences.
