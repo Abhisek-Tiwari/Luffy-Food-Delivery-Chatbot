@@ -83,10 +83,11 @@ To set up the project locally:
    ```
 4. Push and open a pull request
 
-## 📝 License
 
-Licensed under the [MIT License](LICENSE).
+## 📬 Connect with Me
 
-## 🙌 Acknowledgements
+- **GitHub:** [Abhisek-Tiwari](https://github.com/Abhisek-Tiwari)
+- **LinkedIn:** [abhisek-tiwari-a06315262](https://www.linkedin.com/in/abhisek-tiwari-a06315262/)
 
-Created by [Abhisek Tiwari](https://github.com/Abhisek-Tiwari) — blending modern tech and NLP to build smart food delivery experiences.
+
+⭐️ If you like this project, don't forget to leave a star!
